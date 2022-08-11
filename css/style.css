@@ -80,10 +80,6 @@ a {
 }
 }
 
-a:visited {
-  /* visited link */
-  color: #ff7f50;
-}
 
 a:hover,
 a:focus {
@@ -94,7 +90,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #994c30;
+  color: #82b8a1;
 }
 
 .button {
@@ -201,7 +197,7 @@ nav>ul>li>a {
 }
 
 nav>ul>li>a:visited {
-  color: #7d3099;
+  color: #47817f;
   /* visited link */
 }
 
@@ -256,11 +252,21 @@ Medium devices (640px and larger)
 #about-body h3 { margin-top: 0;}
 
 }
+
+
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
 }
+
+
+
+
+
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
