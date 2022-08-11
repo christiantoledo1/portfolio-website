@@ -94,24 +94,24 @@ a:active {
 }
 
 .button {
-  display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block*/
   background-color: #00C9C8;
-  color: #ffffff;
-  /* needed to override the default link color */
+  color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #308899;
-  /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: 0.4s opacity, 0.5s font-size;
 }
 
 .button:hover {
-  opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+
   text-decoration: none;
+
 }
+
 
 .button.contact {
   background-color: transparent;
@@ -125,9 +125,17 @@ a:active {
   color: #ffffff;
 }
 
+.button3:hover {
+   font-size:20px;
+
+}
+
+
+
+
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 
 .row {
@@ -180,9 +188,29 @@ margin-top: 60px;}
   text-align: center;
 }
 
+
+/* project 1 */
+#project1 { margin-left: 25px; margin-right: 25px;}
+
+.p1heading { padding-top: 40px;}
+
+.p1img {max-width: 600px;}
+
+#p1image {text-align: center;}
+
+
+
+
+
+
+
+
+
+/* project 1 end */
+
 nav>ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
 }
 
 nav>ul>li {
@@ -190,7 +218,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
+  padding: 0px 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
@@ -215,6 +243,43 @@ nav>ul>li>a:active {
 
 
 
+
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;}
+
+/*  @keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414;}
+  } */
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+  }
+  .sun {
+  animation: 4s color-change infinite alternate linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+
+
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -232,7 +297,7 @@ Medium devices (640px and larger)
   main {
     padding-top: 99px;
   }
-  body {font-size: 16px;}
+  body {font-size: 18px;}
   #hero {text-align: center;}
   #hero span {
   display: block;
@@ -259,7 +324,11 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
