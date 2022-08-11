@@ -21,6 +21,7 @@ header {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 * {
@@ -28,7 +29,7 @@ header {
 }
 
 main {
-  padding-top: 200px;
+  padding-top: 160px;
 }
 
 body {
@@ -49,22 +50,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.2em;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1.35em;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -153,7 +154,7 @@ a:active {
 }
 
 .logo {
-  max-width: 220px;
+  max-width: 120px;
 }
 
 #me {
@@ -161,7 +162,7 @@ a:active {
 }
 
 .image-container {text-align: center;
-margin-top: 20px;}
+margin-top: 60px;}
 
 #Layer_1 {
   max-width: 32px;
@@ -212,4 +213,56 @@ nav>ul>li>a:focus {
 
 nav>ul>li>a:active {
   color: #00C9C8;
+}
+
+
+
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  main {
+    padding-top: 99px;
+  }
+  body {font-size: 16px;}
+  #hero {text-align: center;}
+  #hero span {
+  display: block;
+}
+.col-md-6 {
+  width: 50%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#about-body h3 { margin-top: 0;}
+
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
