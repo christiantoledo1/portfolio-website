@@ -27,7 +27,9 @@ header {
   box-sizing: border-box;
 }
 
-.logo {max-width: 150px}
+.logo {
+  max-width: 150px
+}
 
 main {
   padding-top: 82px;
@@ -46,9 +48,9 @@ body {
   /* font color  */
 }
 
-#berlin {text-align: center;
-
-  }
+#berlin {
+  text-align: center;
+}
 
 h1, h2, h3, h4 {
   line-height: 1.4;
@@ -182,7 +184,7 @@ a:active {
 
 #about {
   margin-top: 80px;
-  padding:25px;
+  padding: 25px;
   display: inline-block;
   width: 100%;
 }
@@ -208,16 +210,13 @@ a:active {
 #p1image {
   text-align: center;
 }
+
 /* project 1 end */
-
-
-
 nav>ul {
   list-style-type: none;
-  padding: 0px; margin: 0;
+  padding: 0px;
+  margin: 0;
 }
-
-
 
 nav>ul>li>a {
   padding: 0px 15px;
@@ -257,23 +256,23 @@ nav>ul>li>a:active {
   padding-right: 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(146, 150, 147,0.5);
+  border-top: 1px solid rgba(146, 150, 147, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
-
 
 .berlin-illustration {
   width: 100%;
@@ -340,27 +339,27 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
-
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
   nav>ul>li {
     display: inline-block;
   }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
-  .navtoggle li:last-child {
-  display: none;
-}
 
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   main {
     padding-top: 99px;
@@ -396,7 +395,10 @@ Medium devices (640px and larger)
   #about-body h3 {
     margin-top: 0;
   }
-  #about{ margin-top: 110px}
+
+  #about {
+    margin-top: 110px
+  }
 }
 
 /* ==============================
@@ -408,8 +410,10 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-  #about{max-width: 1200px;}
-  
+
+  #about {
+    max-width: 1200px;
+  }
 }
 
 /* ==============================
