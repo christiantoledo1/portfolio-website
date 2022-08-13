@@ -28,6 +28,8 @@ header {
   box-sizing: border-box;
 }
 
+.logo {max-width: 150px}
+
 main {
   padding-top: 160px;
 }
@@ -44,6 +46,10 @@ body {
   color: #000000;
   /* font color  */
 }
+
+#berlin {text-align: center;
+
+  }
 
 h1, h2, h3, h4 {
   line-height: 1.4;
