@@ -10,7 +10,7 @@ Dark Brown: #28161C
 header {
   background-color: #66e3ed;
   padding: 10px 0 4px;
-  box-shadow: 0px 11px 16px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 11px 16px 0 rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100%;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 .logo {
-  max-width: 150px
+  max-width: 150px;
 }
 
 main {
@@ -36,23 +36,22 @@ main {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  /* Sets the font size to 16px */
   font-weight: 300;
-  /* Sets the font weight to 300 */
   line-height: 1.6;
-  /* Sets the line-height to 1.6 * the font-size */
-  color: #000000;
-  /* font color  */
+  color: #000;
 }
 
 #berlin {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -81,17 +80,14 @@ img {
 }
 
 a {
-  color: #47817F;
+  color: #47817f;
   text-decoration: none;
-  /* No underlining */
-}
 }
 
 a:hover,
 a:focus {
-  color: #BFFCF9;
+  color: #bffcf9;
   text-decoration: underline;
-  /* Underlining when hovering over a link */
 }
 
 a:active {
@@ -101,10 +97,8 @@ a:active {
 
 .button {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block*/
-  background-color: #00C9C8;
-  color: #ffffff;
-  /* needed to override the default link color */
+  background-color: #008483;
+  color: #fff;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
@@ -115,20 +109,19 @@ a:active {
 
 .button:hover {
   opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #00C9C8;
+  color: #00c9c8;
   text-transform: uppercase;
-  border: 2px solid #00C9C8;
+  border: 2px solid #00c9c8;
 }
 
 .button.contact:hover {
-  background-color: #00C9C8;
-  color: #ffffff;
+  background-color: #00c9c8;
+  color: #fff;
 }
 
 .button3:hover {
@@ -137,12 +130,11 @@ a:active {
 
 /* Layout styling */
 .container {
-  padding: 0px 15px;
+  padding: 0 15px;
 }
 
 .row {
   margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
 }
 
 #work-section .row {
@@ -152,7 +144,6 @@ a:active {
 
 #hero h1 {
   text-align: center;
-  /* Centers text */
 }
 
 .center {
@@ -169,17 +160,17 @@ a:active {
 
 .image-container {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
-#Layer_1 {
+#Layer_11 {
   max-width: 32px;
   max-height: 32px;
 }
 
 #links {
   text-align: center;
-  padding: 10px
+  padding: 10px;
 }
 
 #about {
@@ -207,44 +198,43 @@ a:active {
   max-width: 600px;
 }
 
-#p1image {
+.p1image {
   text-align: center;
 }
 
 /* project 1 end */
 nav>ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
   margin: 0;
 }
 
 nav>ul>li>a {
-  padding: 0px 15px;
+  padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
 nav>ul>li>a:visited {
-  color: #47817f;
-  /* visited link */
+  color: #366160;
 }
 
-nav>ul>li>a:hover,
+nav>ul>li>a :hover,
 nav>ul>li>a:focus {
-  color: #1b39e0;
-  text-decoration: underline;
+  color: #01090a;
 }
 
 nav>ul>li>a:active {
-  color: #00C9C8;
+  color: #00c9c8;
 }
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -397,7 +387,7 @@ Medium devices (640px and larger)
   }
 
   #about {
-    margin-top: 110px
+    margin-top: 110px;
   }
 }
 
@@ -419,4 +409,4 @@ Large devices (1024px or larger)
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px)
