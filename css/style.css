@@ -396,6 +396,8 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
+  .aboutmain { margin: 0 120px; }
+
   #about {
     max-width: 1200px;
   }
