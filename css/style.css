@@ -142,6 +142,11 @@ a:active {
   border-bottom: 1px solid #4a4a4a;
 }
 
+.line {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
 #hero h1 {
   text-align: center;
 }
@@ -201,6 +206,8 @@ a:active {
 .p1image {
   text-align: center;
 }
+
+.footer { text-align: center; }
 
 /* project 1 end */
 nav>ul {
